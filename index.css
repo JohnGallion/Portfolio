@@ -80,6 +80,10 @@ body {
     max-width: var(--container-max-width);
     margin: 0 auto;
 }
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media(max-width: 1340px) {
     .row {
@@ -126,6 +130,9 @@ h3 {
     font-weight: 400;
     line-height: var(--line-height-small);
     color: var(--white);
+}
+i {
+    font-size: 36px;
 }
 
 .heading-primary {
@@ -527,6 +534,9 @@ body:not(.user-is-tabbing) a:focus {
         flex-direction: column-reverse;
         align-items: initial;
     }
+}
+.about__photo {
+    border-radius: 10%;
 }
 
 .about__photo-container {
