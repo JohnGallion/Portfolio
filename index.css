@@ -543,6 +543,12 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
+.icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 @media(min-width: 901px) {
     .about__text {
         flex: 0 0 35%;
@@ -552,6 +558,8 @@ body:not(.user-is-tabbing) a:focus {
         flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
     }
+
+    
 }
 
 /* --------------------------------------- */
